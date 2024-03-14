@@ -123,7 +123,7 @@ const styles = StyleSheet.create({
         flex:1,
         width:'100%',
         justifyContent:'space-evenly',
-        alignItems:'center',
+        alignItems:'center'
     },
     loginBtn:{
         width:'100%',

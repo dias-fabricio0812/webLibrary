@@ -18,11 +18,11 @@ export default function App(){
         headerShown: false
       }}>
 
-        <Stack.Screen name='Welcome' component={Welcome} options={{animation: 'slide_from_right'}}/>
-        <Stack.Screen name='Login' component={Login} options={{animation: 'slide_from_right'}}/>
-        <Stack.Screen name='Register' component={Register} options={{animation: 'slide_from_bottom'}}/>
-        <Stack.Screen name='ForgotPassword' component={ForgotPassword} options={{animation: 'slide_from_bottom'}}/>
-        <Stack.Screen name='Home' component={Home} options={{animation: 'slide_from_right'}}/>
+        <Stack.Screen name='Welcome' component={Welcome}/>
+        <Stack.Screen name='Login' component={Login}/>
+        <Stack.Screen name='Register' component={Register}/>
+        <Stack.Screen name='ForgotPassword' component={ForgotPassword}/>
+        <Stack.Screen name='Home' component={Home}/>
       
       </Stack.Navigator>
     </NavigationContainer>
